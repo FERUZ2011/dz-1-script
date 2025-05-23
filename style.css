@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+   color: black;
+   margin-top: 50px;
+}
+.header__biography{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .card {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .card > img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  img{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 5%;
+    height: 500px;
+  }
